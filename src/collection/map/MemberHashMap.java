@@ -28,7 +28,7 @@ public class MemberHashMap {
         return false;
     }
 
-    public void ShowAllMemmber() {
+    public void showAllMemmber() {
         Iterator<Integer> ir = hashMap.keySet().iterator();
         while (ir.hasNext()){
             int key = ir.next();
